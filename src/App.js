@@ -3,7 +3,7 @@ import './asset/style.css'
 import Form from './Component/Form'
 import Todo from './Component/Todo';
 
-function Todolist() {
+function App() {
     const [inputText, setInputText] = useState("");
     const [todos, setTodos] = useState([]);
     const [status, setStatus] = useState("all");
@@ -101,4 +101,4 @@ function Todolist() {
     )
 }
 
-export default Todolist
+export default App
